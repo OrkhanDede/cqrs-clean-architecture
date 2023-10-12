@@ -1,0 +1,8 @@
+﻿{
+  "AesCryptoSettings": {
+    "Salt": "insight123resultxyz",
+    "Iv": "e84ad660c4721ae0e84ad660c4721ae0",
+    "Key": "@!h256c6cbc4c2e"
+
+  }
+}
