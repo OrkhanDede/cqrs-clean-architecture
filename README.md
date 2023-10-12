@@ -1,0 +1,1 @@
+# cqrs-base-architecture
