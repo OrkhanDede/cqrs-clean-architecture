@@ -1,5 +1,7 @@
 # CQRS Base Architecture
 
+
+
 ## Project Description
 
 CQRS (Command Query Responsibility Segregation) is a software architectural pattern that separates the read and write operations of a system into distinct parts. The CQRS Base Architecture project provides a foundation for building CQRS-based applications, making it easier to implement and scale complex systems that require a clear separation of concerns.
@@ -22,7 +24,13 @@ This project offers a set of essential components and best practices for develop
 - **PostgreSQL and Entity Framework**: Utilize PostgreSQL as the database backend, and Entity Framework for data access and manipulation.
 
 **Database Connection**:
-- To set up the database connection, edit the `appsettings.json` file and configure the PostgreSQL connection string as follows:
+- To set up the database connection, edit the `appsettings.json` file and configure the PostgreSQL connection string
+
+**Build and Run**:
+- requirements
+   - .NET 5.
+   - Visual studio 2019 +
+   - PostgreSQL 15 +
 
 **Key Library**: This project utilizes the [MediatR library](https://github.com/jbogard/MediatR), a powerful library for implementing the Mediator pattern in C# applications, to simplify command and query handling.
 
